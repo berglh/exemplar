@@ -1,9 +1,9 @@
 
-## chinese pinyin input method keyboard on gnome
+## gnome chinese pinyin input method keyboard
 
 installing chinese pinyin for engish speakers on gnome shell **should** be simple, don't be coersed by **fcitx** although it does work, sometimes.
 
-#### targets
+### targets
 
 os | versions
 :---|:---
@@ -20,13 +20,13 @@ fedora | *?*
     ```
     - select **zh_CN.UTF-8** for china
     - select **zh_TW.UTF-8** for taiwan
-    - or live a little, select both
+    <br /><sup>**tip**: live a littele, select both</sup><br />
 
 2. ensure **im-config** is set to **ibus**:
     ```
     berglh@ubuntu:~$ im-config
     ```
-    ![pinyin-ibus-im-config](../images/pinyin-im-config.png)
+    ![pinyin-ibus-im-config](../images/pinyin-im-config.png)<br />
 
 3. install **ibus-pinyin** package:
     ```
@@ -42,12 +42,12 @@ fedora | *?*
         ![pinyin-ibus-im-config](../images/pinyin-language-search.png)
     - click `chinese (pinyin)` and click `add`
         <br /><sup>**tip**: `bopomofo` option</sup><br />
-        ![pinyin-ibus-im-config](../images/pinyin-language-add.png)
+        ![pinyin-ibus-im-config](../images/pinyin-language-add.png)<br />
 
 5. configure **input method** settings
     ![pinyin-ibus-im-config](../images/pinyin-input-menu.png)
     - for example, select simplified or traditional
-        ![pinyin-ibus-im-config](../images/pinyin-input-config.png)
+        ![pinyin-ibus-im-config](../images/pinyin-input-config.png)<br />
 
 6. use **super+space** to toggle inputs
 
