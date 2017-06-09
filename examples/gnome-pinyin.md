@@ -3,6 +3,8 @@
 
 installing chinese pinyin for engish speakers on gnome shell **should** be simple, don't be coersed by **fcitx** although it does work, sometimes.
 
+---
+
 ### targets
 
 os | versions
@@ -12,8 +14,10 @@ ubuntu gnome | *17.04, 16.10, 16.04*
 debian | *?*
 fedora | *?*
 
+---
+
 ### steps
-1. install the *appropriate* **locales**
+1. install the *appropriate* **locales**:
     <br /><sup>**note**: not sure if this is required</sup><br />
     ```
     berglh@ubuntu:~$ sudo dpkg-reconfigure locales
@@ -34,7 +38,7 @@ fedora | *?*
     berglh@ubuntu:~$ sudo apt-get install ibus-pinyin
     ```
 
-4. install the pinyin **input source**
+4. install the pinyin **input source**:
     - open region & language in the gnome control centre
     - click the `+` symbol in `input sources`
         ![pinyin-ibus-im-config](../images/pinyin-reg-lang.png)
@@ -44,11 +48,12 @@ fedora | *?*
         <br /><sup>**tip**: `bopomofo` option</sup><br />
         ![pinyin-ibus-im-config](../images/pinyin-language-add.png)<br /><br />
 
-5. configure **input method**
-    - open the input settings
+5. configure **input method**:
+    - open the input perferences<br />
         ![pinyin-ibus-im-config](../images/pinyin-input-menu.png)
     - select simplified or traditional
         ![pinyin-ibus-im-config](../images/pinyin-input-config.png)<br /><br />
 
 6. use **super+space** to toggle inputs
 
+---
