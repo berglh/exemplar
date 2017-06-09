@@ -4,6 +4,7 @@
 installing chinese pinyin for engish speakers on gnome shell **should** be simple, don't be coersed by **fcitx** although it does work, sometimes.
 
 ---
+<br />
 
 ### targets
 
@@ -15,6 +16,7 @@ debian | *?*
 fedora | *?*
 
 ---
+<br />
 
 ### steps
 1. install the *appropriate* **locales**:
