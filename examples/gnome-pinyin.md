@@ -20,13 +20,13 @@ fedora | *?*
     ```
     - select **zh_CN.UTF-8** for china
     - select **zh_TW.UTF-8** for taiwan
-    <br /><sup>**tip**: live a littele, select both</sup><br />
+    <br /><sup>**tip**: live a littele, select both</sup><br /><br />
 
 2. ensure **im-config** is set to **ibus**:
     ```
     berglh@ubuntu:~$ im-config
     ```
-    ![pinyin-ibus-im-config](../images/pinyin-im-config.png)<br />
+    ![pinyin-ibus-im-config](../images/pinyin-im-config.png)<br /><br />
 
 3. install **ibus-pinyin** package:
     ```
@@ -42,12 +42,13 @@ fedora | *?*
         ![pinyin-ibus-im-config](../images/pinyin-language-search.png)
     - click `chinese (pinyin)` and click `add`
         <br /><sup>**tip**: `bopomofo` option</sup><br />
-        ![pinyin-ibus-im-config](../images/pinyin-language-add.png)<br />
+        ![pinyin-ibus-im-config](../images/pinyin-language-add.png)<br /><br />
 
-5. configure **input method** settings
-    ![pinyin-ibus-im-config](../images/pinyin-input-menu.png)
-    - for example, select simplified or traditional
-        ![pinyin-ibus-im-config](../images/pinyin-input-config.png)<br />
+5. configure **input method**
+    - open the input settings
+        ![pinyin-ibus-im-config](../images/pinyin-input-menu.png)
+    - select simplified or traditional
+        ![pinyin-ibus-im-config](../images/pinyin-input-config.png)<br /><br />
 
 6. use **super+space** to toggle inputs
 
