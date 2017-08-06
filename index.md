@@ -1,6 +1,7 @@
 this is a collection of procedural guides for [foss](https://en.wikipedia.org/wiki/Free_and_open-source_software).
 
 - [pinyin input method gnome shell](examples/gnome-pinyin.md)
+- [systemd-resolved configuration](examples/systemd-resolved.md)
 
 ### about berglh
 
