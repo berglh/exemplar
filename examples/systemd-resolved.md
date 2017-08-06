@@ -10,7 +10,7 @@ point resolv.conf to the systemd config:
 ```
 
 ### 2: nsswitch.conf
-ensure the configuration of your hosts directive in nsswitch looks like this:
+ensure the configuration of your hosts directive in nsswitch looks like this, the order of resolution here indicates the lookup order via your host files, systemd-resolved then multicast dns before returning unavailable. this configuration would fit a typical use case:
 ```
 ~$ sudo vim /etc/nsswitch.conf
 ...
@@ -26,7 +26,7 @@ ensure systemd-resolved service is running and enabled:
 ```
 
 ### 4: resolved.conf
-add domain suffixes/sarch domains to resolved.conf if required:
+add domain suffixes/search domains to resolved.conf if required:
 ```
 ~$ sudo vim /etc/systemd/resolved.conf
 ...
@@ -35,7 +35,9 @@ Domains=mysearchdomain1.com mydomainsuffix2.net someotherdomain.com.au
 ```
 turn off domain caching if you want to be a horrible person towards your resolving name servers or do something terrible with round-robin DNS:
 ```
+...
 Cache=No
+...
 ```
 
 
